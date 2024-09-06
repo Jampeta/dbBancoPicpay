@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/clientes/buscarPorNome/Fernanda
+Content-Type: application/json

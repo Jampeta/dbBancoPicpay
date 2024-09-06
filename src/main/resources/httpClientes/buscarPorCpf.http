@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/clientes/buscarPorCpf/23456789012
+Content-Type: application/json

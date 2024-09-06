@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/contas/inserir
+Content-Type: application/json
+
+{
+  "saldo": 2000,
+  "limite": 500,
+  "clienteCpf": "63475643553"
+}

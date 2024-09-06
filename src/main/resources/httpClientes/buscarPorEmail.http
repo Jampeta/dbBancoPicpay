@@ -1,0 +1,2 @@
+GET http://localhost:8080/api/clientes/buscarPorEmail/ana.costa@email.com
+Content-Type: application/json

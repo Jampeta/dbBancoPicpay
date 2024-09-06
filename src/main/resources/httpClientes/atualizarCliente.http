@@ -1,0 +1,9 @@
+PUT http://localhost:8080/api/clientes/atualizar/63475643553
+Content-Type: application/json
+
+{
+  "cpf": "63475643553",
+  "nome": "oie teste",
+  "email": "teste@gmail.com",
+  "telefone": "12345678912"
+}
