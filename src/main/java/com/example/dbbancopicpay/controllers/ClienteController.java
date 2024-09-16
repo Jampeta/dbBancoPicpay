@@ -100,8 +100,8 @@ public class ClienteController {
         return clienteService.buscarPorTelefone(telefone);
     }
 
-    @GetMapping("/buscarPorCpf/{cpf}")
-    public List<Cliente> buscarPorCpf(@PathVariable String cpf){
-        return clienteService.buscarPorCpf(cpf);
-    }
+//    @GetMapping("/buscarPorCpf/{cpf}")
+//    public List<Cliente> buscarPorCpf(@PathVariable String cpf){
+//        return clienteService.buscarPorCpf(cpf);
+//    }
 }

@@ -46,9 +46,9 @@ public class ContaController {
            }
            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(erros.toString());
        }
-       else if(!clienteService.verificarPorCpf(cpf)) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Um cliente com este cpf não existe");
-       }
+//       else if(!clienteService.verificarPorCpf(cpf)) {
+//            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Um cliente com este cpf não existe");
+//       }
        else{
            contaService.salvarConta(conta);
            return ResponseEntity.ok("Conta inserida");
